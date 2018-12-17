@@ -16,9 +16,6 @@ namespace saimmod5
 
         public void Process(float lambda = 2f, float u = 1f, int itterationsCount = 2000000)
         {
-            //        float lambda = Float.parseFloat(args[0]);
-            //        float u = Float.parseFloat(args[1]);
-
             int k = 1;
             float outputIntensity = 0f;
 

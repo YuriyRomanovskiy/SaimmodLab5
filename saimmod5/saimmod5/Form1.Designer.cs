@@ -36,20 +36,22 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.SuspendLayout();
             // 
             // richTextBox1
             // 
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox1.Location = new System.Drawing.Point(12, 12);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(588, 426);
+            this.richTextBox1.Size = new System.Drawing.Size(345, 426);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(606, 12);
+            this.label1.Location = new System.Drawing.Point(372, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 17);
             this.label1.TabIndex = 1;
@@ -58,7 +60,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(606, 43);
+            this.label2.Location = new System.Drawing.Point(372, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(16, 17);
             this.label2.TabIndex = 2;
@@ -67,7 +69,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(606, 72);
+            this.label3.Location = new System.Drawing.Point(372, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 17);
             this.label3.TabIndex = 3;
@@ -75,7 +77,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(689, 13);
+            this.textBox1.Location = new System.Drawing.Point(455, 13);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 4;
@@ -83,7 +85,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(689, 43);
+            this.textBox2.Location = new System.Drawing.Point(455, 43);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 5;
@@ -91,7 +93,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(689, 72);
+            this.textBox3.Location = new System.Drawing.Point(455, 72);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 6;
@@ -99,7 +101,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(609, 110);
+            this.button1.Location = new System.Drawing.Point(375, 110);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(180, 42);
             this.button1.TabIndex = 7;
@@ -111,7 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(566, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -138,6 +140,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
 
